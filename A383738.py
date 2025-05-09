@@ -1,3 +1,6 @@
+# Code for A383738
+# Author Darío Clavijo, 2025.
+
 def queens(n, row=0, cols=0, pos_diags=0, neg_diags=0, sol=None, mask=None):
     if sol is None:
         sol = []
